@@ -4,6 +4,7 @@ For   this   problem,   we   want   you   to   figure   out   how   containers  
 2. When   the   container   is   loaded   onto   a   train
 3. When   the   train   leaves   the   port
 
+Note:
 **For this problem, you can assume that every container will have all of these events and that   they happen in order.**
 
 Let’s   say   we’ve   attached   a   couple   of   sensors   to   each   container:   SENSOR_A   and   SENSOR_B. Whenever   there   is   activity   for   a   specific   container,   we   receive   a   sensor   reading   from   both   of   its attached   sensors.   However,   there   is   a   lot   of   noise   associated   with   these   sensors.   Our   goal   is   to classify   these   sensor   readings   as   one   of   our   events   or   as   noise:
